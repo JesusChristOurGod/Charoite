@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111F1BEC26752C1500F841DE /* CharoiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BEB26752C1500F841DE /* CharoiteApp.swift */; };
+		111F1BEE26752C1500F841DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BED26752C1500F841DE /* ContentView.swift */; };
+		111F1BF026752C1900F841DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1BEF26752C1900F841DE /* Assets.xcassets */; };
+		111F1BF326752C1900F841DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1BF226752C1900F841DE /* Preview Assets.xcassets */; };
+		111F1BFE26752C1A00F841DE /* CharoiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BFD26752C1A00F841DE /* CharoiteTests.swift */; };
+		111F1C0926752C1A00F841DE /* CharoiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C0826752C1A00F841DE /* CharoiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111F1BFA26752C1A00F841DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111F1BE026752C1500F841DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111F1BE726752C1500F841DE;
+			remoteInfo = Charoite;
+		};
+		111F1C0526752C1A00F841DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 111F1BE026752C1500F841DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 111F1BE726752C1500F841DE;
+			remoteInfo = Charoite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111F1BE826752C1500F841DE /* Charoite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charoite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F1BEB26752C1500F841DE /* CharoiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharoiteApp.swift; sourceTree = "<group>"; };
+		111F1BED26752C1500F841DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		111F1BEF26752C1900F841DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111F1BF226752C1900F841DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		111F1BF426752C1900F841DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111F1BF926752C1A00F841DE /* CharoiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharoiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F1BFD26752C1A00F841DE /* CharoiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharoiteTests.swift; sourceTree = "<group>"; };
+		111F1BFF26752C1A00F841DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111F1C0426752C1A00F841DE /* CharoiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharoiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F1C0826752C1A00F841DE /* CharoiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharoiteUITests.swift; sourceTree = "<group>"; };
+		111F1C0A26752C1A00F841DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111F1BE526752C1500F841DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1BF626752C1A00F841DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1C0126752C1A00F841DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111F1BDF26752C1500F841DE = {
+			isa = PBXGroup;
+			children = (
+				111F1BEA26752C1500F841DE /* Charoite */,
+				111F1BFC26752C1A00F841DE /* CharoiteTests */,
+				111F1C0726752C1A00F841DE /* CharoiteUITests */,
+				111F1BE926752C1500F841DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111F1BE926752C1500F841DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111F1BE826752C1500F841DE /* Charoite.app */,
+				111F1BF926752C1A00F841DE /* CharoiteTests.xctest */,
+				111F1C0426752C1A00F841DE /* CharoiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111F1BEA26752C1500F841DE /* Charoite */ = {
+			isa = PBXGroup;
+			children = (
+				111F1BEB26752C1500F841DE /* CharoiteApp.swift */,
+				111F1BED26752C1500F841DE /* ContentView.swift */,
+				111F1BEF26752C1900F841DE /* Assets.xcassets */,
+				111F1BF426752C1900F841DE /* Info.plist */,
+				111F1BF126752C1900F841DE /* Preview Content */,
+			);
+			path = Charoite;
+			sourceTree = "<group>";
+		};
+		111F1BF126752C1900F841DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				111F1BF226752C1900F841DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		111F1BFC26752C1A00F841DE /* CharoiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				111F1BFD26752C1A00F841DE /* CharoiteTests.swift */,
+				111F1BFF26752C1A00F841DE /* Info.plist */,
+			);
+			path = CharoiteTests;
+			sourceTree = "<group>";
+		};
+		111F1C0726752C1A00F841DE /* CharoiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				111F1C0826752C1A00F841DE /* CharoiteUITests.swift */,
+				111F1C0A26752C1A00F841DE /* Info.plist */,
+			);
+			path = CharoiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111F1BE726752C1500F841DE /* Charoite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F1C0D26752C1A00F841DE /* Build configuration list for PBXNativeTarget "Charoite" */;
+			buildPhases = (
+				111F1BE426752C1500F841DE /* Sources */,
+				111F1BE526752C1500F841DE /* Frameworks */,
+				111F1BE626752C1500F841DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Charoite;
+			productName = Charoite;
+			productReference = 111F1BE826752C1500F841DE /* Charoite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		111F1BF826752C1A00F841DE /* CharoiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F1C1026752C1A00F841DE /* Build configuration list for PBXNativeTarget "CharoiteTests" */;
+			buildPhases = (
+				111F1BF526752C1A00F841DE /* Sources */,
+				111F1BF626752C1A00F841DE /* Frameworks */,
+				111F1BF726752C1A00F841DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111F1BFB26752C1A00F841DE /* PBXTargetDependency */,
+			);
+			name = CharoiteTests;
+			productName = CharoiteTests;
+			productReference = 111F1BF926752C1A00F841DE /* CharoiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		111F1C0326752C1A00F841DE /* CharoiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F1C1326752C1A00F841DE /* Build configuration list for PBXNativeTarget "CharoiteUITests" */;
+			buildPhases = (
+				111F1C0026752C1A00F841DE /* Sources */,
+				111F1C0126752C1A00F841DE /* Frameworks */,
+				111F1C0226752C1A00F841DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				111F1C0626752C1A00F841DE /* PBXTargetDependency */,
+			);
+			name = CharoiteUITests;
+			productName = CharoiteUITests;
+			productReference = 111F1C0426752C1A00F841DE /* CharoiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111F1BE026752C1500F841DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					111F1BE726752C1500F841DE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					111F1BF826752C1A00F841DE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 111F1BE726752C1500F841DE;
+					};
+					111F1C0326752C1A00F841DE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 111F1BE726752C1500F841DE;
+					};
+				};
+			};
+			buildConfigurationList = 111F1BE326752C1500F841DE /* Build configuration list for PBXProject "Charoite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111F1BDF26752C1500F841DE;
+			productRefGroup = 111F1BE926752C1500F841DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111F1BE726752C1500F841DE /* Charoite */,
+				111F1BF826752C1A00F841DE /* CharoiteTests */,
+				111F1C0326752C1A00F841DE /* CharoiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111F1BE626752C1500F841DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F1BF326752C1900F841DE /* Preview Assets.xcassets in Resources */,
+				111F1BF026752C1900F841DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1BF726752C1A00F841DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1C0226752C1A00F841DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111F1BE426752C1500F841DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F1BEE26752C1500F841DE /* ContentView.swift in Sources */,
+				111F1BEC26752C1500F841DE /* CharoiteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1BF526752C1A00F841DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F1BFE26752C1A00F841DE /* CharoiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		111F1C0026752C1A00F841DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F1C0926752C1A00F841DE /* CharoiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111F1BFB26752C1A00F841DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111F1BE726752C1500F841DE /* Charoite */;
+			targetProxy = 111F1BFA26752C1A00F841DE /* PBXContainerItemProxy */;
+		};
+		111F1C0626752C1A00F841DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 111F1BE726752C1500F841DE /* Charoite */;
+			targetProxy = 111F1C0526752C1A00F841DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111F1C0B26752C1A00F841DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		111F1C0C26752C1A00F841DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111F1C0E26752C1A00F841DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Charoite/Preview Content\"";
+				DEVELOPMENT_TEAM = MAF34NW233;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Charoite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.Charoite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111F1C0F26752C1A00F841DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Charoite/Preview Content\"";
+				DEVELOPMENT_TEAM = MAF34NW233;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Charoite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.Charoite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		111F1C1126752C1A00F841DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = CharoiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.CharoiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charoite.app/Charoite";
+			};
+			name = Debug;
+		};
+		111F1C1226752C1A00F841DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = CharoiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.CharoiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charoite.app/Charoite";
+			};
+			name = Release;
+		};
+		111F1C1426752C1A00F841DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = CharoiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.CharoiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Charoite;
+			};
+			name = Debug;
+		};
+		111F1C1526752C1A00F841DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = CharoiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.CharoiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Charoite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111F1BE326752C1500F841DE /* Build configuration list for PBXProject "Charoite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F1C0B26752C1A00F841DE /* Debug */,
+				111F1C0C26752C1A00F841DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F1C0D26752C1A00F841DE /* Build configuration list for PBXNativeTarget "Charoite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F1C0E26752C1A00F841DE /* Debug */,
+				111F1C0F26752C1A00F841DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F1C1026752C1A00F841DE /* Build configuration list for PBXNativeTarget "CharoiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F1C1126752C1A00F841DE /* Debug */,
+				111F1C1226752C1A00F841DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F1C1326752C1A00F841DE /* Build configuration list for PBXNativeTarget "CharoiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F1C1426752C1A00F841DE /* Debug */,
+				111F1C1526752C1A00F841DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111F1BE026752C1500F841DE /* Project object */;
+}
