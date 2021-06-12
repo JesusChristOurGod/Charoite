@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		111F1BEC26752C1500F841DE /* CharoiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BEB26752C1500F841DE /* CharoiteApp.swift */; };
-		111F1BEE26752C1500F841DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BED26752C1500F841DE /* ContentView.swift */; };
 		111F1BF026752C1900F841DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1BEF26752C1900F841DE /* Assets.xcassets */; };
 		111F1BF326752C1900F841DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F1BF226752C1900F841DE /* Preview Assets.xcassets */; };
 		111F1BFE26752C1A00F841DE /* CharoiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1BFD26752C1A00F841DE /* CharoiteTests.swift */; };
 		111F1C0926752C1A00F841DE /* CharoiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C0826752C1A00F841DE /* CharoiteUITests.swift */; };
+		111F1C2326752C7600F841DE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C2226752C7600F841DE /* OnboardingView.swift */; };
+		111F1C2B2675321700F841DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C2A2675321700F841DE /* Colors.swift */; };
+		111F1C39267542B000F841DE /* GlassCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C38267542B000F841DE /* GlassCapsule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 /* Begin PBXFileReference section */
 		111F1BE826752C1500F841DE /* Charoite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charoite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111F1BEB26752C1500F841DE /* CharoiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharoiteApp.swift; sourceTree = "<group>"; };
-		111F1BED26752C1500F841DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		111F1BEF26752C1900F841DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111F1BF226752C1900F841DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		111F1BF426752C1900F841DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,9 @@
 		111F1C0426752C1A00F841DE /* CharoiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharoiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111F1C0826752C1A00F841DE /* CharoiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharoiteUITests.swift; sourceTree = "<group>"; };
 		111F1C0A26752C1A00F841DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111F1C2226752C7600F841DE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		111F1C2A2675321700F841DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		111F1C38267542B000F841DE /* GlassCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCapsule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,13 @@
 			isa = PBXGroup;
 			children = (
 				111F1BEB26752C1500F841DE /* CharoiteApp.swift */,
-				111F1BED26752C1500F841DE /* ContentView.swift */,
+				111F1C1926752C3100F841DE /* Views */,
+				111F1C2126752C4500F841DE /* ViewModels */,
+				111F1C2026752C3C00F841DE /* Models */,
 				111F1BEF26752C1900F841DE /* Assets.xcassets */,
 				111F1BF426752C1900F841DE /* Info.plist */,
 				111F1BF126752C1900F841DE /* Preview Content */,
+				111F1C2A2675321700F841DE /* Colors.swift */,
 			);
 			path = Charoite;
 			sourceTree = "<group>";
@@ -128,6 +135,37 @@
 				111F1C0A26752C1A00F841DE /* Info.plist */,
 			);
 			path = CharoiteUITests;
+			sourceTree = "<group>";
+		};
+		111F1C1926752C3100F841DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				111F1C372675428900F841DE /* Components */,
+				111F1C2226752C7600F841DE /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		111F1C2026752C3C00F841DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		111F1C2126752C4500F841DE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		111F1C372675428900F841DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				111F1C38267542B000F841DE /* GlassCapsule.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111F1BEE26752C1500F841DE /* ContentView.swift in Sources */,
+				111F1C39267542B000F841DE /* GlassCapsule.swift in Sources */,
 				111F1BEC26752C1500F841DE /* CharoiteApp.swift in Sources */,
+				111F1C2B2675321700F841DE /* Colors.swift in Sources */,
+				111F1C2326752C7600F841DE /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
