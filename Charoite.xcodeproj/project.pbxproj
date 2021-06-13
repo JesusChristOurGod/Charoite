@@ -15,6 +15,11 @@
 		111F1C2326752C7600F841DE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C2226752C7600F841DE /* OnboardingView.swift */; };
 		111F1C2B2675321700F841DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C2A2675321700F841DE /* Colors.swift */; };
 		111F1C39267542B000F841DE /* GlassCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1C38267542B000F841DE /* GlassCapsule.swift */; };
+		1845FCCE2675F454009FE633 /* GlassSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845FCCD2675F454009FE633 /* GlassSquare.swift */; };
+		184C317A26763590008238F5 /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C317926763590008238F5 /* DayModel.swift */; };
+		184C317F267636CD008238F5 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C317E267636CD008238F5 /* DayViewModel.swift */; };
+		184C318426763845008238F5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C318326763845008238F5 /* TabBarView.swift */; };
+		184C318C2676395B008238F5 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C318B2676395B008238F5 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		111F1C2226752C7600F841DE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		111F1C2A2675321700F841DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		111F1C38267542B000F841DE /* GlassCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCapsule.swift; sourceTree = "<group>"; };
+		1845FCCD2675F454009FE633 /* GlassSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSquare.swift; sourceTree = "<group>"; };
+		184C317926763590008238F5 /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayModel.swift; path = Charoite/Views/Components/DayModel.swift; sourceTree = SOURCE_ROOT; };
+		184C317E267636CD008238F5 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayViewModel.swift; path = Charoite/Views/Components/DayViewModel.swift; sourceTree = SOURCE_ROOT; };
+		184C318326763845008238F5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		184C318B2676395B008238F5 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +114,10 @@
 				111F1C2126752C4500F841DE /* ViewModels */,
 				111F1C2026752C3C00F841DE /* Models */,
 				111F1BEF26752C1900F841DE /* Assets.xcassets */,
+				111F1C2A2675321700F841DE /* Colors.swift */,
+				184C318B2676395B008238F5 /* ViewRouter.swift */,
 				111F1BF426752C1900F841DE /* Info.plist */,
 				111F1BF126752C1900F841DE /* Preview Content */,
-				111F1C2A2675321700F841DE /* Colors.swift */,
 			);
 			path = Charoite;
 			sourceTree = "<group>";
@@ -142,6 +153,7 @@
 			children = (
 				111F1C372675428900F841DE /* Components */,
 				111F1C2226752C7600F841DE /* OnboardingView.swift */,
+				184C318326763845008238F5 /* TabBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +161,7 @@
 		111F1C2026752C3C00F841DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				184C317926763590008238F5 /* DayModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,6 +169,7 @@
 		111F1C2126752C4500F841DE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				184C317E267636CD008238F5 /* DayViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -164,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				111F1C38267542B000F841DE /* GlassCapsule.swift */,
+				1845FCCD2675F454009FE633 /* GlassSquare.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -297,10 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184C318C2676395B008238F5 /* ViewRouter.swift in Sources */,
+				184C317A26763590008238F5 /* DayModel.swift in Sources */,
 				111F1C39267542B000F841DE /* GlassCapsule.swift in Sources */,
+				184C318426763845008238F5 /* TabBarView.swift in Sources */,
+				1845FCCE2675F454009FE633 /* GlassSquare.swift in Sources */,
 				111F1BEC26752C1500F841DE /* CharoiteApp.swift in Sources */,
 				111F1C2B2675321700F841DE /* Colors.swift in Sources */,
 				111F1C2326752C7600F841DE /* OnboardingView.swift in Sources */,
+				184C317F267636CD008238F5 /* DayViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

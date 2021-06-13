@@ -14,6 +14,8 @@ extension Color {
     public static let reddish = Color(UIColor(red: 191/255, green: 33/255, blue: 30/255, alpha: 1))
     public static let alphaWhite2 = Color(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 0.18))
     public static let alphaWhite = Color(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 0.15))
+    public static let textWhite = Color(UIColor(red: 255/255, green: 250/255, blue: 250/255, alpha: 1))
+
     public static let lightGrey = Color(UIColor(red: 199/255, green: 199/255, blue: 199/255, alpha: 1))
     public static let shadowBlack = Color(UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.25))
     public static let shadowBlack2 = Color(UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.16))
