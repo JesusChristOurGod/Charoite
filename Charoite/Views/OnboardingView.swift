@@ -12,7 +12,7 @@ struct OnboardingView: View {
     init() {
             UITextView.appearance().backgroundColor = .clear
         }
-    @EnvironmentObject var dayViewModel: DayViewModel
+    @StateObject var dayViewModel = DayViewModel()
     @State var isAnimated: Bool = false
     
     @State var sendEmoji: Int = 0
@@ -57,6 +57,7 @@ struct OnboardingView: View {
                 
                 
             }.onAppear(perform:animate)
+            .environmentObject(dayViewModel)
     }
 }
 //MARK: VIEWS STAGE 0
